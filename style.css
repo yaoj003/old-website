@@ -1,0 +1,136 @@
+/* CSS files add styling rules to your content */
+
+body,
+html {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+.header {
+  font-weight: bold;
+  background-color: white;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  display: inline;
+  position: fixed;
+}
+
+li a {
+  display: inline;
+  text-decoration: none;
+  float: left;
+}
+
+.frontpage {
+  font-size: 85px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  padding: 6%;
+}
+
+.column1{
+  float: left;
+  width: 92%;
+}
+
+.column2{
+   float: left;
+  width: 8%;
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  padding-top: 50px;
+}
+
+.description {
+  padding-bottom: 50px;
+}
+
+.subhead {
+  font-size: 18px;
+}
+
+img {
+  padding-right: 2%;
+  padding-bottom: 2%;
+}
+
+.next{
+  font-weight: bold;
+  float: right;
+  
+}
+
+		.embed-container {
+		  position: relative;
+		  padding-bottom: 41.66666667%;
+		  height: 0;
+		  overflow: hidden;
+		  max-width: 100%;
+		  height: auto;
+		}
+		
+		.embed-container iframe,
+		.embed-container object,
+		.embed-container embed {
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  width: 100%;
+		  height: 100%;
+		}
+
+@media screen and (max-width: 600px) {
+  body,
+  html {
+    margin: 1em;
+  }
+
+  .frontpage {
+    font-size: 45px;
+    padding-top: 25%;
+  }
+
+  .subhead {
+    font-size: 12px;
+  }
+  
+   .header {
+    font-size: 12px;
+  }
+  
+  
+}
